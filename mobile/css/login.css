@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+.main_box {
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    /* margin-top: -210px; */
+    padding: 1.5rem;
+    width: 87%;
+    /* height: 32%; */
+    background: url(../img/border@2x.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    /* background-color: #fff; */
+    z-index: 10000000;
+    display: inline-block;
+    text-align: center;
+    line-height: 0rem;
+    margin: 0 auto;
+    /* padding-bottom: 26rem; */
+    background-size: 100% 100%;
+}
+.main_box .setting {position: absolute; top: 5px; right: 10px; width: 10px; height: 10px;}
+.main_box .setting a {color: #FF6600;}
+.main_box .setting a:hover {color: #555;}
+.login_logo {margin-bottom: 1rem; /*height: 45px;*/ text-align: center;}
+.login_logo img {height: 45px;}
+.login_msg {text-align: center; font-size: 16px;}
+.login_form {padding-top: 20px; font-size: 16px;}
+.login_box .form-control {display: inline-block; *display: inline; zoom: 1; width: auto; font-size: 2rem;}
+.login_box .form-control.x319 {
+    width: 38rem;
+    line-height: 5rem;
+    border-radius: 5px;
+    border: 1px solid #5dace7;
+    color: #a2cae8;
+    padding-left: 15px;}
+.login_box .form-control.x164 {
+    width: 22rem;
+    line-height: 5rem;
+    border-radius: 5px;
+    border: 1px solid #0096e6;
+    color: #a2cae8;
+    padding-left: 15px;
+    margin-bottom: 1rem;}
+.login_box .form-group {margin-bottom: 1rem;}
+.login_box .form-group label.t {width: 120px; text-align: right; cursor: pointer;}
+.login_box .form-group.space {padding-top: 15px; /*border-top: 1px #FFF dotted;*/}
+.login_box .form-group img {
+    margin-top: 1px;
+    height: 5rem;
+    vertical-align: top;
+    width: 15.5rem;}
+.login_box .m {cursor: pointer;}
+.bottom {text-align: center; font-size: 12px;}
+　input:-moz-placeholder {
+    color: #a2cae8;
+}
+input::-moz-placeholder {
+    color: #a2cae8;
+}
+input:-ms-input-placeholder {
+    color: #a2cae8;
+}
+input::-webkit-input-placeholder {
+    color: #a2cae8;
+}
+.w1{
+    /* display: inline-block; */
+    /* display: inline-block; */
+    float: left;
+    /* overflow: hidden; */
+    margin-left: 83px;
+    color: #0096e6;
+    border-bottom: 1px solid #0096e6;
+    line-height: 3.5rem;
+    /* margin-top: 10px; */
+    font-size: 2rem;
+}
+.yj{
+    color: #0096e6;
+    border-bottom: 1px solid #0096e6;
+    line-height: 3.5rem;
+    /* margin-top: 10px; */
+    font-size: 2rem;
+}
+.sy{
+    color: #0096e6;
+    line-height: 3.5rem;
+    font-size: 2rem;
+}
+.btn-get-validation-code{
+    background-color: #fff;
+    color: #0096e6;
+    border-radius: .1rem;
+    float: left;
+    border: none;
+    line-height: 5rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+.deng-z{
+    width:100%;
+    height: 100%;
+    background-image: url("../img/zhezhao.png");
+    position: fixed;
+    left: 0;;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10000000000;
+    display: none;
+}
+
+.wangji-m{
+    width:100%;
+    height: 100%;
+    background-image: url("../img/zhezhao.png");
+    position: fixed;
+    left: 0;;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10000000000;
+    display: none;
+}
+.xiabu{
+    width:100%;
+    height: 100%;
+    background-image: url("../img/zhezhao.png");
+    position: fixed;
+    left: 0;;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10000000000;
+    display: none;
+}
+.fankui{
+    width:100%;
+    height: 100%;
+    background-image: url("../img/zhezhao.png");
+    position: fixed;
+    left: 0;;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10000000000;
+    display: none;
+}
+.jingl-ms {
+    color: #8190a7;
+    margin-left: 0%;
+    /* background: red; */
+    max-width: 38rem;
+    max-height: 14rem;
+}
+.quxiao{
+    width: 3rem;
+    height: 3rem;
+    float: right;
+    display: inline-block;
+    background: url(../img/quxiao.png) no-repeat center;
+    background-size: 100%;
+}

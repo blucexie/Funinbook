@@ -1,0 +1,65 @@
+*,:after,:before {
+    box-sizing: border-box
+}
+
+html {
+    background-color: #fff;
+    color: #333;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-texts-size-adjust: 100%;
+    -webkit-backface-visibility: hidden
+}
+
+html body {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    font-family: Open Sans,Helvetica,Arial,sans-serif
+}
+
+a {
+    color: #e74c3c;
+    text-decoration: none
+}
+
+.no-touch a:hover {
+    color: #d42e1c;
+    text-decoration: underline
+}
+
+.documentation {
+    margin: 0 auto;
+    padding: 50px 10px;
+    width: 68.75em;
+    text-align: center
+}
+
+@media screen and (max-width:68.75em) {
+    .documentation {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width:43.813em) {
+    .documentation {
+        padding-top: 75pt;
+        padding-bottom: 75pt
+    }
+}
+
+.documentation h3 {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 30px;
+    font-size: 1.875rem
+}
+
+.documentation p {
+    font-size: 1pc;
+    font-size: 1rem;
+    line-height: 22px;
+    line-height: 1.375rem
+}

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+.doc>div{width:100%; height:100%; position:relative; overflow:hidden;}
+nav{ width:100%; height:80px; background: #464646; position:absolute; top:0; left:0; z-index:9999;}
+.logo{margin-left:5%; float:left;}
+.menu{ float:right; width:70%;height:80px; margin-right:5%; text-align: center; line-height: 80px; overflow:hidden;}
+.menu ul{ float:left; width:80%;}
+.menu ul li{ float:left; width:18%; position:relative; margin-left:1%;}
+/*.menu ul li.current{background: url(../images/nav&copyright/%E7%84%A6%E7%82%B9.png) no-repeat right bottom;}
+*/
+.menu ul li div{font-size:16px; display:block; height:80px; cursor:pointer; color:#fff;}
+.menu ul li:hover{ background:url(../images/nav&copyright/%E7%84%A6%E7%82%B9.png) no-repeat right bottom;}
+
+.menu span{ display:block; height:80px; float:right; width:12%;}
+.menu span a{  float:left; font-size:14px; margin-right:3%;}
+/*.menu .none{width:136px; height:96px; background: rgba(0,0,0,0.3); position:absolute; left:0; top:100px; line-height:48px; border-radius:0 0 10px 10px;}
+.menu .none a{ width:136px; height:48px; color:rgba(255,255,255,0.7)}
+*/
+
+
+/* screen2 */
+.s2{ width:80%; height:90%;margin:7% auto; overflow:hidden;}
+.screen2 p{width:100%;letter-spacing:7px; margin:8% auto 0; font-size:30px;color: #333;text-align: center;}
+.screen2 span{ display:block;margin:15px auto 0; background:url(../images/public/%E5%88%86%E5%89%B2%E7%BA%BF.png)  no-repeat; text-align: center; background-size:80% 80%;}
+.screen2 section{ width:100%; height:100%;  margin:2% auto 0; position:relative;}
+.screen2 section div{ width:50%;margin-bottom: 2px; position:absolute;}
+.screen2 section div:nth-of-type(1){ left:0; top:0;}
+.screen2 section div:nth-of-type(2){ left:50%; top:0;}
+.screen2 section div:nth-of-type(3){ left:0; top:20%;}
+.screen2 section div:nth-of-type(4){ left:50%; top:20%;}
+.screen2 section div:nth-of-type(5){ left:0%; top:40%;}
+.screen2 section div:nth-of-type(6){ left:50%; top:40%;}
+.screen2 section div:nth-of-type(7){ left:0%; top:60%;}
+.screen2 section div:nth-of-type(8){ left:50%; top:60%;}
+
+.screen2 dt{ width:100px; height:100px; margin:8px auto;}
+.screen2 dd{ margin:0 auto; font-size:16px; color:#333; text-align: center;}
+.screen2 dl{ width:80%; height:30px; margin:8px auto;}
+
+
+
+/* screen3 */
+.s3{ width:80%; height:90%;margin:7% auto; overflow:hidden; background: pink;}
+.screen3 p{width:100%;letter-spacing:7px; margin:8% auto 0; font-size:30px;color: #333;text-align: center;}
+.screen3 .span00{ display:block;margin:15px auto 0; background:url(../images/public/%E5%88%86%E5%89%B2%E7%BA%BF.png)  no-repeat; text-align: center; background-size:80% 80%;}
+.screen3 section{ width:100%; height:100%;  margin:0 auto;}
+.screen3 .title{ width:320px; height:40px; margin:22px auto;}
+.screen3 .title li{ float:left;cursor:pointer; }
+.screen3 .title .current{background: url(../images/home/service/%E4%BC%81%E4%B8%9A%E6%9C%8D%E5%8A%A1hover.png) no-repeat;}
+
+
+.screen3 .ltd{ }
+.screen3 .ltd ul{ float:left; width:50%; height:auto;margin-top:5%; margin-right:0%; margin-bottom: 5%;}
+.screen3 .ltd li{ width:300px; height:300px; border: 1px solid #ccc; position:relative; }
+.screen3 .ltd li .pic01{ width:100px; height:100px; position:absolute; left:50%; margin-left: -48px; top:-49px;}
+.screen3 .ltd li .p1{ font-size:18px; margin-top:50px;letter-spacing:0;}
+.screen3 .ltd li .text{ width:260px; height:auto; font-size:14px; margin-top:10px;letter-spacing:0; text-align: left;text-indent:2em;}
+.screen3 .ltd li .btn{ position:absolute; top:207px; left:193px;display:block; background: url(../images/home/service/button.png) no-repeat; background-size:60% 60%;}
+.screen3 .ltd li .btn:hover{display:block;background: url(../images/home/service/button_hover.png) no-repeat; background-size:60% 60%;}
+.screen3 .ltd li .pic02{ width:170px; height:auto; position:absolute; left:0; top:175px;}
+
+
+
+/* screen4 */
+.s4{ width:80%; height:90%;margin:7% auto; overflow:hidden;background: pink;}
+.screen4 p{width:100%;letter-spacing:7px; margin:8% auto 0; font-size:30px;color: #333;text-align: center;}
+.screen4 span{ display:block;margin:15px auto 0; background:url(../images/public/%E5%88%86%E5%89%B2%E7%BA%BF.png) no-repeat; text-align: center; background-size:80% 80%;}
+.screen4 div{ width:80%; height:90%;margin:7% auto 0;}
+.screen4 ul{ width:100%; position:relative; background: #ccc;}
+.screen4 ul li{ float:left; width:25%; position:absolute; }
+.screen4 ul li:nth-of-type(1){background: url(../images/home/solution/应用行业.png) no-repeat; background-size:60% 60%; top:107px; left:-61px;z-index:2;}
+.screen4 ul li:nth-of-type(2){background: url(../images/home/solution/yingyong_img.png) no-repeat;background-size:100% 60%; position:absolute;  top:107px; left:65px; z-index:1;}
+.screen4 ul li:nth-of-type(2):hover{background: url(../images/home/solution/yingyong_hover.png) no-repeat;background-size:100% 60%;}
+.screen4 ul li:nth-of-type(3){ top:107px; left:188px;z-index:2;background: url(../images/home/solution/服务定制.png) no-repeat;background-size:60% 60%;}
+.screen4 ul li:nth-of-type(4){background: url(../images/home/solution/fuwu_img.png) no-repeat;top:107px; left:314px;z-index:1;background-size:100% 60%;}
+.screen4 ul li:nth-of-type(4):hover{background: url(../images/home/solution/fuwu_hover.png) no-repeat;background-size:100% 60%;}
+.screen4 ul li:nth-of-type(5){background: url(../images/home/solution/维度定制.png) no-repeat;top:107px; left:438px;z-index:2;background-size:100% 60%;}
+.screen4 ul li:nth-of-type(6){background: url(../images/home/solution/funin_img.png) no-repeat;top:200px; left:0;z-index:1;background-size:100% 60%;}
+.screen4 ul li:nth-of-type(6):hover{background: url(../images/home/solution/funin_hover.png) no-repeat;background-size:100% 60%;}
+.screen4 ul li:nth-of-type(7){background: url(../images/home/solution/风影报告.png) no-repeat;top:200px; left:186px;z-index:2;background-size:60% 60%;}
+.screen4 ul li:nth-of-type(8){background: url(../images/home/solution/quanzhong_img.png) no-repeat;top:200px; left:420px;z-index:1;background-size:100% 60%;}
+.screen4 ul li:nth-of-type(8):hover{background: url(../images/home/solution/quanzhong_hover.png) no-repeat;background-size:100% 60%;}
+.screen4 ul li:nth-of-type(9){background: url(../images/home/solution/权重指标.png) no-repeat;top:200px; left:606px;z-index:2;background-size:60% 60%;}
+.screen4 ul li:nth-of-type(10){background: url(../images/home/solution/weidu_img.png) no-repeat;top:200px; left:840px;z-index:1;background-size:100% 60%;}
+.screen4 ul li:nth-of-type(10):hover{background: url(../images/home/solution/weidu_hover.png) no-repeat;background-size:100% 60%;}
+
+
+
+
+
+
+
+
+
+

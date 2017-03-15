@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>风影科技</title>
+    <script src="js/min/jquery-v1.10.2.min.js" type="text/javascript"></script>
+    <script src="js/min/modernizr-custom-v2.7.1.min.js" type="text/javascript"></script>
+    <script src="js/min/hammer-v2.0.3.min.js" type="text/javascript"></script>
+	<link href="css/flickerplate.css"  type="text/css" rel="stylesheet">
+    <script src="js/min/flickerplate.min.js" type="text/javascript"></script>
+	<script>
+	$(function(){
+		$('.flicker-example').flickerplate(
+		{
+            auto_flick 				: true,
+            auto_flick_delay 		: 8,
+            flick_animation 		: 'transform-slide'
+        });
+	});
+	</script>
+	<link href="css/demo.css"  type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div class="flicker-example">
+		<ul>
+			<li data-background="img/flicker-1.jpg"></li>
+			<li data-background="img/flicker-2.jpg"></li>
+			<li data-background="img/flicker-3.jpg">
+			<!--	<div class="flick-title">Touch Enabled Through the Hammer.js Library</div>-->
+				<a href="deom.html" class="flick-sub-text"> 进入官网</a>
+			</li>
+		</ul>
+	</div>
+</body>
+<script>
+
+</script>
+</html>
