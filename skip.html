@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="shortcut icon"  sizes="114x114" href="./images/ico/icoe.ico">
+    <link rel="stylesheet" type="text/css" href="css/fengyingjianjie.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <style>
+
+
+  body{
+         /*  background: rgba(0,0,0,.1);*/
+       }
+
+
+        h3 {
+            padding-bottom: 20px;
+            box-shadow: 0 1px 0 rgba(0,0,0,.1) ,0 2px 0 rgba(255,255,255,.9);
+        }
+
+        p {
+            margin: 0;
+            padding: 10px 0;
+            color: #777;
+        }
+
+        .clear {clear:both;}
+
+        /* -----------------------------------------
+          =CSS3 Loading animations
+        -------------------------------------------- */
+
+        /* =Elements style
+        ---------------------- */
+        .load-wrapp {
+
+            width: 300px;
+            height: 300px;
+            margin: 200px auto 0;
+            padding: 20px 20px 20px;
+            border-radius: 5px;
+            text-align: center;
+
+        }
+
+        .load-wrapp p {padding: 0 0 20px;color: #0096e6;font-size: 20px;margin-bottom: 50px}
+        .load-wrapp:last-child {margin-right: 0;}
+
+
+        .ring-2 {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto;
+            border: 4px solid #4b9cdb;
+            border-radius: 100%;
+        }
+
+        .ball-holder {
+            position: absolute;
+            width: 12px;
+            height: 80px;
+            left: 36px;
+            top: 0px;
+        }
+
+        .ball {
+            position: absolute;
+            top: -11px;
+            left: 0;
+            width: 16px;
+            height: 16px;
+            border-radius: 100%;
+            background: #4282B3;
+        }
+
+
+        /* =Animate the stuff
+        ------------------------ */
+
+        .load-5 .ball-holder {animation: loadingE 1.3s linear infinite;}
+
+
+        @keyframes loadingA {
+        0% {height: 15px;}
+        50% {height: 35px;}
+        100% {height: 15px;}
+        }
+
+        @keyframes loadingB {
+        0% {width: 15px;}
+        50% {width: 35px;}
+        100% {width: 15px;}
+        }
+
+        @keyframes loadingC {
+        0% {transform: translate(0,0);}
+        50% {transform: translate(0,15px);}
+        100% {transform: translate(0,0);}
+        }
+
+        @keyframes loadingD {
+        0% {transform: rotate(0deg);}
+        50% {transform: rotate(180deg);}
+        100% {transform: rotate(360deg);}
+        }
+
+        @keyframes loadingE {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+        }
+
+        @keyframes loadingF {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+        }
+
+        @keyframes loadingG {
+            0% {transform: translate(0,0) rotate(0deg);}
+            50% {transform: translate(70px,0) rotate(360deg);}
+            100% {transform: translate(0,0) rotate(0deg);}
+        }
+
+        @keyframes loadingH {
+            0% {width: 15px;}
+            50% {width: 35px; padding: 4px;}
+            100% {width: 15px;}
+        }
+
+        @keyframes loadingI {
+            100% {transform: rotate(360deg);}
+        }
+
+        @keyframes bounce  {
+            0%, 100% {transform: scale(0.0);}
+            50% {transform: scale(1.0);}
+        }
+
+        @keyframes loadingJ {
+            0%,100% {transform: translate(0,0);}
+
+            50% {
+                transform: translate(80px,0);
+                background-color: #f5634a;
+                width: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <h1 class="logo">
+        <a href="#">
+            <img src="images/logo.png"  alt=""/>
+        </a>
+    </h1>
+    <div class="menu">
+
+        <ul class="menu">
+            <li ><a href="index.html#page1">首页</a></li>
+            <li><a href="index.html#page2">风影数据</a></li>
+            <li ><a class="jiejue-hover" href="index.html#page3">解决方案</a>
+                <ul class="jiejue" >
+                    <li><a class="yyhy" href="solution.html">应用行业</a></li>
+                    <li><a class="fwdz" href="solution.html">服务定制</a></li>
+                    <li><a class="wddz" href="solution.html">维度定制</a></li>
+                    <li><a class="qzzb" href="solution.html">权重指标</a></li>
+                    <li><a class="fybg" href="solution.html">风影报告</a></li>
+                </ul>
+
+            </li>
+            <li><a class="hoveh" href="index.html#page4">产品服务</a>
+                <ul class="none">
+                    <li><a href="interpriseservices.html">企业服务</a></li>
+                    <li><a href="personalservices.html">个人服务</a></li>
+                </ul>
+            </li>
+            <li >
+                <a class="dataReport" href="dataReport.html">数据报告</a>
+            </li>
+            <li ><a class="gun-hover" href="index.html#page5">关于我们</a>
+                <ul class="guanyu" >
+                    <li><a href="aboutus.html">关于风影</a></li>
+                    <li><a href="news.html">新闻资讯</a></li>
+                    <li><a href="partner.html">合作伙伴</a></li>
+                    <li><a href="joinus.html">加入我们</a></li>
+                    <li><a href="contactus.html">联系我们</a></li>
+                </ul>
+            </li>
+        </ul>
+        <span>
+            <a href="Javascript: void(0)"  class="denglu">登录</a>
+            <a href="Javascript: void(0)"  style="display: none"  class="denglu-t">退出登录</a>
+            <!--   <a href="#" style="margin-right:0;">注册</a>-->
+        </span>
+    </div>
+</nav>
+<div class="load-wrapp">
+    <div class="load-5">
+        <p>正在跳转支付商，请等待。。。</p>
+        <div class="ring-2">
+            <div class="ball-holder">
+                <div class="ball"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+</body>
+</html>

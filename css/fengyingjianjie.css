@@ -148,6 +148,7 @@ font{ color:#0096e6;}
 	width: 600px;
 	height: 40px;
 	line-height: 40px;
+	border-radius: 5px;
 	text-indent: 1em;
 	background-color:#ebebeb;
 	margin-bottom: 10px;
@@ -161,9 +162,14 @@ font{ color:#0096e6;}
 .data_con .dataList ul li span{
 	float: right;
 	margin-right: 10px;
-}
-.data_con .dataList ul li span a{
 	color: #f00;
+	cursor: pointer;
+}
+
+.uls{
+	width: 620px;
+	height: 480px;
+	overflow: auto;
 }
 /* -----------------------------partnerbody----------------------------- */
 .partner_banner{ width:100%;}
