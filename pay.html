@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/fengyingjianjie.css">
     <link rel="stylesheet" href="css/login.css">
     <script src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/pay.js"></script>
     <style>
 
 
@@ -31,8 +32,8 @@
         /* =Elements style
         ---------------------- */
         .load-wrapp {
-            width: 300px;
-            height: 300px;
+            width: 600px;
+            height: 600px;
             margin: 200px auto 0;
             padding: 20px 20px 20px;
             border-radius: 5px;
@@ -151,7 +152,12 @@
         </a>
     </h1>
     <div class="menu">
-
+		<!--提交到支付宝-->
+		<form id="downsubmit" action="/DownloadFile" method="POST">
+			<!--接口名称-->
+			<input type="hidden" name="fy_trade" value=""/>
+		</form>
+		
         <ul class="menu">
             <li ><a href="index.html#page1">首页</a></li>
             <li><a href="index.html#page2">风影数据</a></li>
@@ -194,8 +200,9 @@
 
 <div class="load-wrapp">
     <div class="load-5">
-        <p>正在确认支付是否完成</p>
-      <!--  <p>正在努力生成文件</p>-->
+        <div style="width: 600px;height: 86px">
+        <p id="pay">正在确认支付是否完成</p>
+        </div>
         <div class="ring-2">
             <div class="ball-holder">
                 <div class="ball"></div>
@@ -204,5 +211,6 @@
     </div>
 </div>
 <div class="clear"></div>
+
 </body>
 </html>

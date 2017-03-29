@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/fengyingjianjie.css">
     <link rel="stylesheet" href="css/login.css">
     <script src="js/jquery-1.9.1.min.js"></script>
+     <script type="text/javascript" src="js/skip.js"></script>
     <style>
 
 
@@ -36,8 +37,8 @@
         ---------------------- */
         .load-wrapp {
 
-            width: 300px;
-            height: 300px;
+            width: 600px;
+            height: 600px;
             margin: 200px auto 0;
             padding: 20px 20px 20px;
             border-radius: 5px;
@@ -157,7 +158,35 @@
         </a>
     </h1>
     <div class="menu">
-
+		<!--提交到支付宝-->
+		<form id="alipaysubmit" name="alipaysubmit" action="" method="POST">
+			<!--接口名称-->
+			<input type="hidden" name="service" value=""/>
+			<!--签名方式-->
+			<input type="hidden" name="sign_type" value=""/>
+			<!--签名-->
+			<input type="hidden" name="sign" value=""/>
+			<!--合作者身份ID-->
+			<input type="hidden" name="partner" value=""/>
+			<!--卖家支付宝用户号-->
+			<input type="hidden" name="seller_id" value=""/>
+			<!--参数编码字符集-->
+			<input type="hidden" name="_input_charset" value=""/>
+			<!--支付类型-->
+			<input type="hidden" name="payment_type" value=""/>
+			<!--支付宝服务主动通知商户网站里指定的页面http路径。-->
+			<input type="hidden" name="notify_url" value=""/>
+			<!--支付宝服务被动通知商户网站里指定的页面http路径。-->
+			<input type="hidden" name="return_url" value=""/>
+			<!--商户网站唯一订单号-->
+			<input type="hidden" name="out_trade_no" value=""/>
+			<!--商品名称-->
+			<input type="hidden" name="subject" value=""/>
+			<!--充值金额-->
+			<input type="hidden" name="total_fee" value=""/>
+			<!--商品描述-->
+			<input type="hidden" name="body" value=""/>
+		</form>
         <ul class="menu">
             <li ><a href="index.html#page1">首页</a></li>
             <li><a href="index.html#page2">风影数据</a></li>
@@ -199,7 +228,7 @@
 </nav>
 <div class="load-wrapp">
     <div class="load-5">
-        <p>正在跳转支付商，请等待。。。</p>
+        <p>正在跳转支付商，请等待(下载完成前,请勿关闭此页面)。。。</p>
         <div class="ring-2">
             <div class="ball-holder">
                 <div class="ball"></div>

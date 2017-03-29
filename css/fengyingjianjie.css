@@ -151,7 +151,7 @@ font{ color:#0096e6;}
 	border-radius: 5px;
 	text-indent: 1em;
 	background-color:#ebebeb;
-	margin-bottom: 10px;
+	margin-bottom: 9px;
 }
 .data_con .dataList ul li a{
 	color: #222;
@@ -170,6 +170,81 @@ font{ color:#0096e6;}
 	width: 620px;
 	height: 480px;
 	overflow: auto;
+}
+.noDown{
+	width: 620px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 10px;
+	background:#ebebeb;
+	margin-top: 30px;
+
+}
+.noDown a{
+	font-size: 14px;
+	color: #777;
+	margin-left: 460px;
+}
+.noDown a:hover{
+	color: #0D82BE;
+}
+/*下载弹出层*/
+.downloadLayer,.orderLayer{
+	width: 500px;
+	height: 400px;
+	background: #fff;
+	border-radius: 10px;
+	position: fixed;
+	left: 50%;
+	margin-left: -200px;
+	top: 50%;
+	margin-top: -200px;
+	z-index: 20;
+}
+.close{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+.downloadLayer p{
+	font-size: 24px;
+	color: #5dace7;
+	text-align: center;
+	margin-top: 60px;
+}
+.downloadLayer .downBtn{
+	margin-top: 150px;
+}
+.downloadLayer .downBtn button,.orderLayer .downBtn button{
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	border: none;
+	font-size: 18px;
+	border-radius: 5px;
+	background: #5dace7;
+	color: #fff;
+	margin-left: 100px;
+	cursor: pointer;
+}
+.orderNum,.payHistory{
+	font-size: 24px;
+	color: #5dace7;
+	margin-left: 80px;
+	margin-top: 60px;
+}
+.payHistory{
+	margin-top: 80px;
+}
+.orderLayer .downBtn{
+	margin-top: 110px;
+}
+#orderNum{
+	width: 200px;
+	height: 30px;
+	border: 1px solid #ccc;
+	text-indent: 1em;
+	vertical-align: top;
 }
 /* -----------------------------partnerbody----------------------------- */
 .partner_banner{ width:100%;}
