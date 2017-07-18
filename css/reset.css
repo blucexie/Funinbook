@@ -589,9 +589,25 @@ input:-moz-placeholder,textarea::-moz-input-placeholder{color:#7e7e7e;font-size:
 @media (max-width: 1340px){
     .fl img {
         width: 200%;
+        margin-left: -20px;
+    }
+    .menu ul li{
+        width: 124px !important;
     }
     .tabBar .hd {
         top: 21%;
+    }
+}
+@media (min-width: 1340px) and (max-width: 1400px){
+    .fl img {
+        width: 200%;
+        margin-left: -20px;
+    }
+}
+@media all and (min-width: 1400px)and (max-width: 1600px){
+    .fl img {
+        width: 240%;
+        margin-left: -20px;
     }
 }
 .xj{
